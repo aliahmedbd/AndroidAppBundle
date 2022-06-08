@@ -34,15 +34,21 @@ There are two ways to create app bundle (AAB):
 
 ![image](https://user-images.githubusercontent.com/11981999/172597139-f72a1f98-586b-4125-af34-94519edc7564.png)
 
-Building App Bundle using Command Line: 
+## Building App Bundle using Command Line: 
 On the command line we can run the bundle task like this:
-./gradlew bundleRelease 
+
+`./gradlew bundleRelease`
+
 Or for the debug version:
-./gradlew bundleDebug
-Then locate the bundle in your application’s build directory. The default location is app/build/outputs/bundle/release.
+
+`./gradlew bundleDebug`
+
+Then locate the bundle in your application’s build directory. The default location is `app/build/outputs/bundle/release`.
 
 For the release version we need the signed build for that we can use jarsigner, this is the command to sign the apk:
-jarsigner -keystore $pathToKeystore app-release.aab $keyAlias
+
+`jarsigner -keystore $pathToKeystore app-release.aab $keyAlias`
+
 Once the variables are replaced with actual values and the keystore password is entered, the bundle will be signed and ready for upload.
 
 ## Uploading through the Play Console
