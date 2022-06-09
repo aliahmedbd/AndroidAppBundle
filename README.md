@@ -67,6 +67,7 @@ And you also can download signed APKs for your app, to see exactly what the Play
 You can either select a specific device or apply one or more of the many filters from the “Add filter” tab.
 
 ![image](https://user-images.githubusercontent.com/11981999/172599071-f1d602b4-2873-4ff9-ad32-ea25821b7016.png)
+
 Opened filter tab in the app bundle explorer
 
 ## Download the app bundle and install locally
